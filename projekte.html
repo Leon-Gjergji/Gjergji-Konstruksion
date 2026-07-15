@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projektet — Gjergji Konstruksion</title>
+  <meta name="description" content="Projektet e përfunduara nga Gjergji Konstruksion — objekte industriale, kapanone, ferma dhe kulla transmetimi në Shkodër dhe rrethinat.">
+  <link rel="icon" href="assets/favicon.ico" sizes="32x32">
+  <link rel="icon" href="assets/favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/favicon-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-mark" viewBox="0 0 140 100">
+      <g stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 44 L70 20 L132 44" stroke-width="7"/>
+        <g stroke-width="3.2">
+          <line x1="16" y1="42" x2="124" y2="42"/>
+          <line x1="70" y1="22" x2="70" y2="42"/>
+          <line x1="42" y1="31" x2="42" y2="42"/><line x1="42" y1="31" x2="70" y2="42"/>
+          <line x1="98" y1="31" x2="98" y2="42"/><line x1="98" y1="31" x2="70" y2="42"/>
+        </g>
+        <line x1="14" y1="45" x2="14" y2="84" stroke-width="6"/>
+        <line x1="126" y1="45" x2="126" y2="84" stroke-width="6"/>
+        <rect x="52" y="56" width="36" height="28" stroke-width="4"/>
+        <line x1="2" y1="84" x2="138" y2="84" stroke-width="7"/>
+      </g>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22C12 22 4.5 14.5 4.5 9.5C4.5 5.4 7.9 2 12 2C16.1 2 19.5 5.4 19.5 9.5C19.5 14.5 12 22 12 22Z"/><circle cx="12" cy="9.5" r="3"/></g></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" width="46" height="33" viewBox="0 0 140 100" aria-hidden="true"><use href="#i-mark"/></svg>
+      <div class="brand-name">Gjergji Konstruksion<span>Prodhim · Montim</span></div>
+    </a>
+    <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+      <svg class="ico-menu" width="20" height="20" viewBox="0 0 24 24"><use href="#i-menu"/></svg>
+    </button>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Kryefaqja</a></li>
+        <li><a href="index.html#sherbimet">Shërbimet</a></li>
+        <li><a href="projekte.html" class="active">Projektet</a></li>
+        <li><a href="kontakt.html" class="nav-cta">Na kontaktoni</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Punët tona</p>
+    <h1>Projekte të <em style="font-style:normal;border-bottom:3px solid var(--ink)">përfunduara</em></h1>
+    <p class="lead">Mbi 20 000 m² struktura çeliku të prodhuara dhe montuara — për klientë privatë, biznese dhe institucione publike.</p>
+    <div class="dim-rule"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="https://gjergji-konstruksion.github.io/Berdice-e-Siperme-Shkoder/project9.jpg" alt="Objekt industrial 900 m²" loading="lazy">
+          <span class="area-tag">900 M²</span>
+        </div>
+        <div class="project-body">
+          <h3>Objekt Industrial</h3>
+          <p>Prodhim dhe montim i objektit industrial me sipërfaqe 900 m² — strukturë çeliku për aktivitet prodhues.</p>
+          <span class="project-loc"><svg width="13" height="13" viewBox="0 0 24 24"><use href="#i-pin"/></svg> Shkodër</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="https://gjergji-konstruksion.github.io/Berdice-e-Siperme-Shkoder/project3.jpg" alt="Fermë 1000 m² në Dedaj të Shkrelit" loading="lazy">
+          <span class="area-tag">1 000 M²</span>
+        </div>
+        <div class="project-body">
+          <h3>Fermë</h3>
+          <p>Prodhim dhe montim i objektit tip stallë për fermë blegtorale.</p>
+          <span class="project-loc"><svg width="13" height="13" viewBox="0 0 24 24"><use href="#i-pin"/></svg> Dedaj, Shkrel</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="https://gjergji-konstruksion.github.io/Berdice-e-Siperme-Shkoder/project5.jpg" alt="Kapanon 1080 m² në Trush" loading="lazy">
+          <span class="area-tag">1 080 M²</span>
+        </div>
+        <div class="project-body">
+          <h3>Kapanon</h3>
+          <p>Prodhim dhe montim i objektit tip stallë dhish — një nga strukturat më të mëdha të realizuara nga ekipi ynë.</p>
+          <span class="project-loc"><svg width="13" height="13" viewBox="0 0 24 24"><use href="#i-pin"/></svg> Trush, Shkodër</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="https://gjergji-konstruksion.github.io/Berdice-e-Siperme-Shkoder/project6.jpg" alt="Kapanon 520 m² në Lac, Vau i Dejës" loading="lazy">
+          <span class="area-tag">520 M²</span>
+        </div>
+        <div class="project-body">
+          <h3>Kapanon Ushtarak</h3>
+          <p>Prodhim dhe montim i objektit tip magazinë për repartin ushtarak — projekt publik me standarde të rrepta.</p>
+          <span class="project-loc"><svg width="13" height="13" viewBox="0 0 24 24"><use href="#i-pin"/></svg> Lac, Vau i Dejës</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="https://gjergji-konstruksion.github.io/Berdice-e-Siperme-Shkoder/project7.jpg" alt="Struktura në terasën e Meridianit" loading="lazy">
+          <span class="area-tag">TERASË</span>
+        </div>
+        <div class="project-body">
+          <h3>Meridian</h3>
+          <p>Prodhim dhe montim i strukturës metalike në terasën e Meridianit.</p>
+          <span class="project-loc"><svg width="13" height="13" viewBox="0 0 24 24"><use href="#i-pin"/></svg> Shkodër</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="https://gjergji-konstruksion.github.io/Berdice-e-Siperme-Shkoder/project8.jpg" alt="Kullë transmetimi për Radio Marinën në Zefjanë, Bushat" loading="lazy">
+          <span class="area-tag">KULLË</span>
+        </div>
+        <div class="project-body">
+          <h3>Kullë Transmetimi</h3>
+          <p>Prodhim dhe montim i kullës së transmetimit për Radio Marinën — strukturë e lartë me kërkesa të veçanta saktësie.</p>
+          <span class="project-loc"><svg width="13" height="13" viewBox="0 0 24 24"><use href="#i-pin"/></svg> Zefjanë, Bushat, Shkodër</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="groundline" aria-hidden="true"></div>
+
+<section class="cta-band">
+  <div class="container reveal">
+    <h2>Projekti juaj mund të jetë i radhës.</h2>
+    <a href="kontakt.html" class="btn btn-solid">Kërko ofertë <svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <svg class="brand-mark" width="46" height="33" viewBox="0 0 140 100" aria-hidden="true"><use href="#i-mark"/></svg>
+          <div class="brand-name">Gjergji Konstruksion<span>Prodhim · Montim</span></div>
+        </a>
+        <p>Struktura çeliku të ndërtuara me përvojë, cilësi dhe integritet — që prej vitit 2016.</p>
+      </div>
+      <div class="footer-col">
+        <small>Navigimi</small>
+        <ul>
+          <li><a href="index.html">Kryefaqja</a></li>
+          <li><a href="index.html#sherbimet">Shërbimet</a></li>
+          <li><a href="projekte.html">Projektet</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <small>Kontakt</small>
+        <ul>
+          <li><a href="tel:+355682000246">+355 68 2000 246</a></li>
+          <li><a href="mailto:gjergji.konstruksion@gmail.com">gjergji.konstruksion@gmail.com</a></li>
+          <li><span>Harku i Bërdicës, Shkodër</span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <small>Rrjetet sociale</small>
+        <ul>
+          <li><a href="https://www.facebook.com/gjergji.konstruksion.3/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/gjergji_konstruksion" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Gjergji Konstruksion. Të gjitha të drejtat e rezervuara.</span>
+      <span>Harku i Bërdicës · Shkodër · Shqipëri</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
